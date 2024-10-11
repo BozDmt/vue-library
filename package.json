@@ -1,0 +1,21 @@
+{
+  "name": "vue-library",
+  "version": "1.0.0",
+  "description": "vsj library app",
+  "main": "index.js",
+  "scripts": {
+    "test": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "vue-library"
+  },
+  "author": "BozDmt",
+  "license": "GPL-2.0-only",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.8",
+    "vue": "^3.5.11",
+    "vue-router": "^4.4.5"
+  }
+}
