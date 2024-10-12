@@ -1,21 +1,26 @@
 {
   "name": "vue-library",
-  "version": "1.0.0",
-  "description": "vsj library app",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "vite build"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/"
   },
-  "repository": {
-    "type": "git",
-    "url": "vue-library"
-  },
-  "author": "BozDmt",
-  "license": "GPL-2.0-only",
   "dependencies": {
-    "@vitejs/plugin-vue": "^5.1.4",
-    "vite": "^5.4.8",
     "vue": "^3.5.11",
     "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vue/eslint-config-prettier": "^10.0.0",
+    "eslint": "^9.12.0",
+    "eslint-plugin-vue": "^9.28.0",
+    "prettier": "^3.3.3",
+    "vite": "^5.4.8"
   }
 }
